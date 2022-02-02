@@ -247,7 +247,13 @@ h3 {
 
 
 
+/* footer block */
 
 .footer {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: #e5e7eb;
 }
