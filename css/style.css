@@ -4,6 +4,10 @@ body {
     font-family: sans-serif;
 }
     
+
+
+/* header block */
+
 .header {
     display: flex;
     flex-direction: column;
@@ -11,9 +15,6 @@ body {
     padding: 0 250px 100px 250px;
 
 }
-
-
-
 
 
 .logo-nav {
@@ -72,6 +73,7 @@ ul {
 #hero-main-text {
     font-size: 48px ;
     color: #f9faf8;
+    font-weight: bolder;
 }
 
 #hero-secondary-text {
@@ -97,8 +99,67 @@ button {
 
 
 
+/* information block */
+
+.information-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 100px 0;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.img-box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    border-radius: 12px;
+}
+
+.p-box {
+    text-align: center;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* quote block */
+
+.quote-block {
+    background-color: #e5e7eb;
+    
+
+}
 
 
 
