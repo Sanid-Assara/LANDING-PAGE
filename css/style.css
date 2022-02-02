@@ -157,8 +157,25 @@ h2 {
 
 .quote-block {
     background-color: #e5e7eb;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 250px;
+}
 
+blockquote {
+    text-decoration: none;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    margin: 0;
+}
+
+#author {
+    font-weight: bold;
+    font-size: 30px;
+    align-self: flex-end;
+    margin: 0;
 }
 
 
